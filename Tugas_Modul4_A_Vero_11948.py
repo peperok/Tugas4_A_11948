@@ -52,11 +52,11 @@ if uploaded_file is not None:
     st.dataframe(input_data)
 
 
-model_directory = r'D:\UAJY\UAJY_sem_5\ML\ML4\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_A_11948'
+
 model_path = {
-    "AGG_model": os.path.join(model_directory, "AGG_model.pkl"),
-    "KMeans_model": os.path.join(model_directory, "Kmeans_model.pkl"),
-    "DBSCAN_model": os.path.join(model_directory, "DBSCAN_model.pkl")
+    "AGG_model": r'AGG_model.pkl'
+    "KMeans_model": r'Kmeans_model.pkl'
+    "DBSCAN_model": r'DBSCAN_model.pkl'
 }
 
 
