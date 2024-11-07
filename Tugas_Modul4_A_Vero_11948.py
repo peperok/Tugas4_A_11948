@@ -55,7 +55,7 @@ if uploaded_file is not None:
 
 model_path = {
     "AGG_model": r'AGG_model.pkl'
-    "KMeans_model": r'Kmeans_model.pkl'
+    "KMeans_model": r'KMeans_model.pkl'
     "DBSCAN_model": r'DBSCAN_model.pkl'
 }
 
